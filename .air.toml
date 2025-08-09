@@ -1,0 +1,10 @@
+# .air.toml
+
+root = "."
+watch = ["."]
+exclude = ["*.test.go", "vendor/*"]
+
+[build]
+cmd = "go run ./cmd"
+delay = 1000
+clean = true
